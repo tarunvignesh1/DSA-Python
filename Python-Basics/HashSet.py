@@ -17,3 +17,14 @@ mymap = {}
 mymap["alice"] = 88
 mymap["bob"] = 77
 print(mymap)
+
+for key in mymap:
+    print(key,mymap[key])
+
+for val in mymap.values():
+    print(val)
+
+for key,val in mymap.items():
+    print(key,val)
+
+    
