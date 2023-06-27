@@ -1,6 +1,12 @@
+s ="abc"
 
-arr = ["bob","alice","tarun","vignesh"]
+print(s[0:2])
 
-arr.sort(key=lambda x: -len(x))
+s += "def"
 
-print(arr)
+print(s)
+
+print(ord("f"))
+
+strings = ["ab","cd","ef"]
+print(''.join(strings))
